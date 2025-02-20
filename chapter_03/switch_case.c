@@ -1,10 +1,11 @@
-#include<stdio.h>
-int main(){
-    char a ;
-    scanf("%c",&a);
+#include <stdio.h>
+int main()
+{
+    char a;
+    scanf("%c", &a);
     switch (a)
     {
-        case 'a':
+    case 'a':
         printf("Monday");
         break;
     case 'b':
